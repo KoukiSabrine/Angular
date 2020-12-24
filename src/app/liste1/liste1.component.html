@@ -1,0 +1,13 @@
+<h3>Liste des livres</h3>
+<table>
+    <tr><th>ID</th> <th>Description</th> <th>Quantite</th> <th>Prix</th></tr>
+    <tr *ngFor="let p of prods">
+      <td>{{p.id}}</td>
+      <td>{{p.description}}</td>
+      <td>{{p.quantite}}</td>
+      <td>{{p.prix}}</td>
+      
+    </tr>
+   
+</table>
+
